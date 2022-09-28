@@ -73,3 +73,13 @@
     /* position: absolute; */
     background: #fff;
 }
+.hotel {
+    color: black !important;
+    text-align: center ;
+    width: 100%;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
