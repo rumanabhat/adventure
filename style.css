@@ -49,3 +49,27 @@
 .links:hover::after {
   width: 50px;
 }
+.content{
+    position: relative;
+}
+.backdrop{
+    padding: 3rem;
+    background-color: #63bfdd;
+    color: #fff;
+    border-bottom-right-radius: 30%;
+    
+}
+.backdrop > h1{
+    font-size: 3rem;
+    text-shadow: 1px 1px #212121;
+
+}
+.box{
+    width: 80%;
+   border: 1px solid rgba(0, 0, 0, 0.208);
+    z-index: 1;
+    margin: auto;
+    padding: 2rem;
+    /* position: absolute; */
+    background: #fff;
+}

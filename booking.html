@@ -28,13 +28,34 @@
               <a class="nav-link" href="booking.html">Booking</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link disabled" href="about.html">About Us</a>
             </li>
           </ul>
         </div>
       </nav>
       <!-- navbar end  --> 
       <!-- booking start -->
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Confirm Booking</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Yes</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+      </div>
+    </div>
+  </div>
+</div>
       <div class="container">
       <div class="accordion" id="accordionExample">
         <div class="card">
@@ -53,9 +74,12 @@
                 Price per night
              </p>
              <p class="rupee">$500</p>
+             
              <img src="https://cf.bstatic.com/xdata/images/hotel/square200/188833845.webp?k=1d071cd8a3cb428ffbfc312ffb7ac771db0f6e42bfe931f13f5a4e1106eeb4d7&o=">
              
-             <input type="button" value="Book now" class="booking">
+             <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+              Book Now
+            </button>
                
             </div>
 
@@ -66,7 +90,10 @@
                  </p>
                  <p class="rupee">$700</p>
                 <img src="https://cf.bstatic.com/xdata/images/hotel/square200/394592500.webp?k=101143a8b7867c7c8530566a21aa2c16389d9eeb4cdda02698c64de1b0a957f5&o=">
-                <input type="button" value="Book now" class="booking">
+                <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+                  Book Now
+                </button>
+                   
                </div>
                <div class="card-body">
                 <p class="htl"> Royal Hillton Pahalgam</p>
@@ -75,7 +102,10 @@
                  </p>
                  <p class="rupee">$800</p>
                 <img src="https://cf.bstatic.com/xdata/images/hotel/square200/163995305.webp?k=1f67f7e43d97074fe161420d7c4f3df3cdd39b89bcf5869319c078d8bc65506b&o=">
-                <input type="button" value="Book now" class="booking">
+                <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+                  Book Now
+                </button>
+                   
                </div>
           </div>
         </div>
@@ -95,7 +125,10 @@
          </p>
          <p class="rupee">$750</p>
          <img src="https://cf.bstatic.com/xdata/images/hotel/square200/164703578.webp?k=6722cfe7e878b15ae904b5ec7c072eaa7fb453045b5711ba6d119dd022ffc87b&o=">
-         <input type="button" value="Book now" class="booking">
+         <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+          Book Now
+        </button>
+           
             </div>
             <div class="card-body">
                 <p class="htl">The Sultan Resort Sonamarg</p>
@@ -104,7 +137,10 @@
               </p>
               <p class="rupee">$850</p>
               <img src="https://cf.bstatic.com/xdata/images/hotel/square200/311281926.webp?k=0f4a67d6c18ac33c49c91d0d507521ac348445e3c42694cafe216053880c30a2&o=">
-              <input type="button" value="Book now" class="booking">
+              <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+                Book Now
+              </button>
+                 
                  </div>
                  <div class="card-body">
                     <p class="htl">Hotel Rah Villas Sonamarg</p>
@@ -113,7 +149,10 @@
                   </p>
                   <p class="rupee">$600</p>
                   <img src="https://cf.bstatic.com/xdata/images/hotel/square200/147963491.webp?k=ecc6b5ada7caa18b20cbe843842ebeb7aedc70ba7b851b7e45e9482003d62d7d&o=">
-                  <input type="button" value="Book now" class="booking">
+                  <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+                    Book Now
+                  </button>
+                     
                      </div>
           </div>
         </div>
@@ -133,7 +172,10 @@
               </p>
               <p class="rupee">$650</p>
               <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/20120913100105245-37a4a0ba1ded11e48afedaf4768ad8d9.jpg?&output-quality=75&downsize=243:162&output-format=jpg">
-              <input type="button" value="Book now" class="booking">
+              <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+                Book Now
+              </button>
+                 
               
             </div>
             <div class="card-body">
@@ -143,7 +185,10 @@
               </p>
               <p class="rupee">$800</p>
               <img src="https://r1imghtlak.mmtcdn.com/a2246a20783411ec94630a58a9feac02.jpeg?&output-quality=75&downsize=243:162&output-format=jpg"> 
-              <input type="button" value="Book now" class="booking">
+              <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+                Book Now
+              </button>
+                 
               
             </div>
             <div class="card-body">
@@ -153,7 +198,10 @@
               </p>
               <p class="rupee">$900</p>
               <img src="https://cf.bstatic.com/xdata/images/hotel/square200/147963491.webp?k=ecc6b5ada7caa18b20cbe843842ebeb7aedc70ba7b851b7e45e9482003d62d7d&o=">
-              <input type="button" value="Book now" class="booking">
+              <button type="button" class="btn btn-primary booking" data-toggle="modal" data-target="#exampleModalCenter">
+                Book Now
+              </button>
+                 
               
             </div>
           </div>
