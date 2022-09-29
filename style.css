@@ -97,3 +97,17 @@
     /* font-weight: bold !important; */
     font-size: 300px;
 }
+.mypic{
+  display: inline-block;
+  height: 500px;
+}
+a{
+  color: #fff !important;
+  text-decoration: none;
+}
+.cards{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+
+}
