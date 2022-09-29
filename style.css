@@ -109,5 +109,25 @@ a{
   display: flex;
   margin: auto;
   justify-content: space-around;
+}
+.contact{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 1000px;
+  margin-bottom: 100px;
+  line-height: 2rem;
+  font-size: 600;
 
+  
+}
+.sub{
+  display: inline-block;
+  width: 400px;
+  /* vertical-align: middle; */
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(55, 156, 55) !important;
+  font-weight:bold;
 }

@@ -38,26 +38,35 @@
     </div>
   </nav>
   <!-- navbar end  -->
-  <!-- main start  -->
-  <div class="content">
-      <div class="backdrop">
-          <h1 class="text-center">ABOUT ADVENTURE</h1>
-      </div>
-      <div class="box">
-        <h2 class="text-dark">WHO WE ARE?</h2>
-        <p class="text-dark">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ullam. Est modi asperiores accusamus doloribus necessitatibus dignissimos veniam aliquid autem sapiente impedit placeat velit, et ipsum fuga nisi voluptas dolorem ut ab culpa molestias eos. Nam illo blanditiis, consequatur minus vero iusto mollitia vel sapiente nobis modi officiis quas quasi voluptatibus fugit veritatis eveniet aperiam aspernatur assumenda labore ipsum aliquid! Facilis ipsum dolorem inventore quod praesentium voluptas quo hic quis perspiciatis consectetur alias perferendis, iure, adipisci dolor dolorum nulla fugit, quia consequatur ipsam. Facere voluptatibus minus tempore aperiam tenetur dolorum voluptatem dolor, provident praesentium libero consequatur quis nisi dolorem soluta!
-        </p>
-        <h4 class="text-dark">WE ARE DIFFERENT FROM THE REST</h4>
-        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit aspernatur eaque error repellendus, fugit consequatur neque animi autem placeat fuga, odio nihil provident rem et sapiente earum eum quas perferendis in, dicta tenetur. Voluptatibus debitis consectetur officia accusamus dolorem soluta voluptate perferendis, atque cumque, nulla magni suscipit? Cum rerum consequatur saepe quod magni quaerat iure nemo sed perspiciatis et commodi corporis, maiores labore nihil tempora consectetur aspernatur quo quas voluptatibus inventore, pariatur excepturi ab numquam maxime. Impedit deleniti ex ducimus nostrum suscipit libero qui nulla maxime laborum iure ipsum rem quod, nihil maiores, dolor sint quisquam perspiciatis facilis soluta assumenda ratione delectus. Corrupti voluptate mollitia, soluta excepturi architecto nulla ducimus eveniet doloremque unde labore aut nostrum saepe modi odit ex nam laboriosam perspiciatis assumenda! Asperiores perferendis corrupti culpa magnam dolor dolorem laborum, nesciunt vel quod id, nihil accusamus alias laboriosam aspernatur iusto a eligendi corporis ex animi delectus blanditiis saepe? Pariatur exercitationem amet dolor laudantium suscipit molestias unde asperiores porro alias inventore ea nulla odit dignissimos, provident corporis nam atque similique eos explicabo tempore aperiam! Assumenda natus unde, dignissimos nisi inventore in incidunt nesciunt aliquam! Ratione similique temporibus saepe corporis porro quidem fuga quasi quo vitae veniam. Error, vitae!
-    
-        </p><div class="d-flex justify-content-center mt-5">
-            
-            <button class="btn btn-primary "><a href="contact.html">Contact Us</a></button>
+  <!-- Form start  -->
+  <div class="contact">
+      <h2>Contact</h2>
+      <form>
+        <div class="mb-2 form-floating">
+          <!-- <label for="exampleInputEmail1">Email address</label> -->
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="mb-2 form-floating">
+
+              <!-- <label for="Name">Enter Name</label> -->
+              <input name="Name" placeholder="Enter Name" required="" type="text" id="Name" class="form-control">
+          </div>
+          <div class="mb-2 form-floating">
+
+              <!-- <label for="Subject">Subject</label> -->
+              <input name="Subject" placeholder="Subject" required="" type="text" id="Subject" class="form-control">
+          </div>
+          <div class="mb-2 form-floating">
+            <textarea name="Message" placeholder="Message" style="height:100px" required="" id="Message" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary sub">Submit</button>
         </div>
-      </div>
+        
+       
+      </form>
   </div>
-  
+  <!-- Form end  -->
   <!-- Footer Start -->
   <div class="footer bg-dark p-5 d-flex justify-content-around">
     <div>
@@ -83,6 +92,7 @@
     </ul>
   </div>
   <!-- Footer end  -->
+    
     
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
