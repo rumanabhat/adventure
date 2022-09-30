@@ -72,8 +72,14 @@
     margin: auto;
     padding: 2rem;
     /* position: absolute; */
+    
     background: #fff;
 }
+/* .about{
+position: relative; */
+
+
+
 .hotel {
 
     color: black !important;
@@ -100,6 +106,8 @@
 .mypic{
   display: inline-block;
   height: 500px;
+  
+ 
 }
 a{
   color: #fff !important;
@@ -136,4 +144,31 @@ a{
   padding: 30px 600px 30px 600px;
   line-height: 2rem;
   
+}
+.toplayover{
+  position: relative;
+}
+.layover{
+  position: absolute;
+  top: 50%
+}
+.cardss{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly;
+  align-items: space-between; */
+}
+.card{
+  font-family: 'Poppins', sans-serif;
+  margin: 1rem;
+}
+.overview{
+  font-family:'Poppins', sans-serif;
+  font-weight: 350;
+}
+.cursive{
+  font-family: 'Passions Conflict', cursive;
+  font-weight: 1000;
+  font-size: larger;
+  font-stretch: expanded;
 }
