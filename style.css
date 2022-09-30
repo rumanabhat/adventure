@@ -117,8 +117,8 @@ a{
   margin-bottom: 100px;
   line-height: 2rem;
   font-size: 600;
-
-  
+  display: inline-block;
+    flex-wrap: wrap;
 }
 .sub{
   display: inline-block;
@@ -130,4 +130,10 @@ a{
   text-decoration: none;
   background-color: rgb(55, 156, 55) !important;
   font-weight:bold;
+}
+.form{
+  margin: auto;
+  padding: 30px 600px 30px 600px;
+  line-height: 2rem;
+  
 }
