@@ -1,6 +1,6 @@
 .myslider {
   height: 100vh;
-  width: 80vh;
+  width: 200vh;
 }
 .btn {
   font-family: Arial, Helvetica, sans-serif;
@@ -139,6 +139,11 @@ a{
   background-color: rgb(55, 156, 55) !important;
   font-weight:bold;
 }
+.booknow{
+  width: 250px;
+ background-color: rgb(83, 150, 83) !important;
+ font-weight: bold;
+}
 .form{
   margin: auto;
   padding: 30px 600px 30px 600px;
@@ -147,6 +152,7 @@ a{
 }
 .toplayover{
   position: relative;
+
 }
 .layover{
   position: absolute;
