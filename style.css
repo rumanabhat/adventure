@@ -220,3 +220,11 @@ blockquote cite:before {
 .radio{
   display: inline-block;
 }
+.picture-info{
+/* 
+ box-sizing: border-box; */
+ height: 200px;
+ width: 150px;
+ margin-top: 2x;
+ 
+}
