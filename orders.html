@@ -1,57 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="orders.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Orders</title>
 </head>
-<body>
-    <h3 class="text-center mt-5"> Items You Can Buy From Us</h3>
-    <div class="d-flex ">
-        <div class="picture-info mt-5 ml-5">
-            <img src="https://media.gettyimages.com/photos/yellow-jacket-hung-on-rack-in-diy-fashion-studio-workshop-space-picture-id869981104?k=20&m=869981104&s=612x612&w=0&h=9x-Iw1PnNmzGlX1LTEg-YicQEMpQFITFvklvmb4El00=" alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
-            <div>
-                <p>Denim Jacket</p>
-                <p>$200</p>
-            </div>
-        </div>
-        <div class="picture-info mt-5 ml-5">
-            <img src="https://media.gettyimages.com/photos/front-of-black-leather-jacketisolated-on-white-wclipping-path-picture-id157692462?k=20&m=157692462&s=612x612&w=0&h=gYeG1t0bga4529e1_fNFh3OROox1_YIyClDmgkP0HJA=" alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
-            <div>
-                <p>Denim Jacket</p>
-                <p>$200</p>
-            </div>
-        </div>
-            <div class="picture-info mt-5 ml-5">
-                <img src="https://media.gettyimages.com/photos/running-shoe-isolated-on-white-background-picture-id1169282638?k=20&m=1169282638&s=612x612&w=0&h=fq1Iye0Ou7pV7zYm8_mBxW9vx0AebRPmqmcx4auh9cM=" alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
-                <div>
-                    <p>Denim Jacket</p>
-                    <p>$200</p>
-        
-                </div>
-            </div>
-            <div class="picture-info mt-5 ml-5">
-                    <img src="https://media.gettyimages.com/photos/sports-shoe-picture-id185246744?k=20&m=185246744&s=612x612&w=0&h=IuPNGhIfrSFM6Bo_xhjvhRQFUoRx68IbdhmRRxjp7VI=" alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
-                    <div>
-                        <p>Denim Jacket</p>
-                        <p>$200</p>
-        
-                     </div>
-            </div>
-            <div class="picture-info mt-5 ml-5">
-                <img src="https://media.gettyimages.com/photos/black-leather-athletic-sports-bag-picture-id151895420?k=20&m=151895420&s=612x612&w=0&h=upQlybrFz8H3MO0k_3syXRr2r7orWbaGMPqDiNxaID0=" alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
-                    <div>
-                         <p>Denim Jacket</p>
-                            <p>$200</p>
-                    </div>
-            </div>
-        
-    </div>
 
-    
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Adventure</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinations.html">Destinations</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="booking.html">Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end  -->
+    <h3 class="text-center mt-5"> Items You Can Buy From Us</h3>
+    <div class="customCards">
+        <div class=" mt-5 ml-5 customCard">
+            <img src="https://media.gettyimages.com/photos/yellow-jacket-hung-on-rack-in-diy-fashion-studio-workshop-space-picture-id869981104?k=20&m=869981104&s=612x612&w=0&h=9x-Iw1PnNmzGlX1LTEg-YicQEMpQFITFvklvmb4El00="
+                alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
+            <div>
+                <p>Denim Jacket</p>
+                <p>$200</p>
+            </div>
+        </div>
+        <div class=" mt-5 ml-5 customCard">
+            <img src="https://media.gettyimages.com/photos/front-of-black-leather-jacketisolated-on-white-wclipping-path-picture-id157692462?k=20&m=157692462&s=612x612&w=0&h=gYeG1t0bga4529e1_fNFh3OROox1_YIyClDmgkP0HJA="
+                alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
+            <div>
+                <p>Denim Jacket</p>
+                <p>$200</p>
+            </div>
+        </div>
+        <div class=" mt-5 ml-5 customCard">
+            <img src="https://media.gettyimages.com/photos/running-shoe-isolated-on-white-background-picture-id1169282638?k=20&m=1169282638&s=612x612&w=0&h=fq1Iye0Ou7pV7zYm8_mBxW9vx0AebRPmqmcx4auh9cM="
+                alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
+            <div>
+                <p>Denim Jacket</p>
+                <p>$200</p>
+
+            </div>
+        </div>
+        <div class=" mt-5 ml-5 customCard">
+            <img src="https://media.gettyimages.com/photos/sports-shoe-picture-id185246744?k=20&m=185246744&s=612x612&w=0&h=IuPNGhIfrSFM6Bo_xhjvhRQFUoRx68IbdhmRRxjp7VI="
+                alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
+            <div>
+                <p>Denim Jacket</p>
+                <p>$200</p>
+
+            </div>
+        </div>
+        <div class=" mt-5 ml-5 customCard">
+            <img src="https://media.gettyimages.com/photos/black-leather-athletic-sports-bag-picture-id151895420?k=20&m=151895420&s=612x612&w=0&h=upQlybrFz8H3MO0k_3syXRr2r7orWbaGMPqDiNxaID0="
+                alt="Denim Jacket" title="Denim Jacket" height="100%" width="100%" object-fit="contain">
+
+            <p>Denim Jacket</p>
+            <p>$200</p>
+
+        </div>
+
+    </div>
+    <!-- Footer Start -->
+    <div class="footer bg-dark p-5 d-flex justify-content-around">
+        <div>
+            <img src="/assets/logo.png" width="100px" />
+        </div>
+        <ul class="list-unstyled">
+            <h5 class="text-light">Links</h5>
+            <li class="text-light links">Home</li>
+            <li class="text-light links">Destinations</li>
+            <li class="text-light links">Booking</li>
+        </ul>
+        <ul class="list-unstyled">
+            <h5 class="text-light">Social</h5>
+            <li class="text-light links">Instagram</li>
+            <li class="text-light links">Facebook</li>
+            <li class="text-light links">Twitter</li>
+        </ul>
+        <ul class="list-unstyled">
+            <h5 class="text-light">Contact</h5>
+            <li class="text-light links">+919906123456</li>
+            <li class="text-light links">adventure@asdvernture.com</li>
+            <li class="text-light links">99087654321</li>
+        </ul>
+    </div>
+    <!-- Footer end  -->
+
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
 </html>

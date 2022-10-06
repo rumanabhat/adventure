@@ -1,0 +1,14 @@
+.customCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.customCard > img {
+  width: 300px;
+}
+.customCard {
+  border: 1px solid #21211260;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -217,14 +217,6 @@ blockquote cite {
 blockquote cite:before {
   content: "\2014 \2009";
 }
-.radio{
+.radio {
   display: inline-block;
-}
-.picture-info{
-/* 
- box-sizing: border-box; */
- height: 200px;
- width: 150px;
- margin-top: 2x;
- 
 }
