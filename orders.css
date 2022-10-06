@@ -18,6 +18,7 @@
   max-width: 200px;
   line-height: 2;
   text-align: center;
+ 
 
 }
 .customCard:hover{
@@ -30,12 +31,15 @@ button{
   width: 100%;
   padding: 8px;
   font-size: 20px;
+  text-align: center;
 }
 .price{
   font-size: 22px;
   color: grey;
   font-weight: bold;
 }
-.button:hover{
-  background-color: rgb(92, 89, 89);
+button:hover{
+  cursor: pointer;
+  /* background-color: rgb(92, 89, 89); */
+  opacity: 0.7;
 }
