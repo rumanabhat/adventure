@@ -1,6 +1,7 @@
 let cart=document.querySelector(".popup")
 let close=document.querySelector(".close")
-let button=document.querySelector(".cart")
+let button=document.querySelectorAll(".cart")
+console.log(button)
 
 button.addEventListener('click', showbutton);
 close.addEventListener('click', ()=> cart.style.display="none");
