@@ -1,0 +1,30 @@
+.title{
+    color: rgb(7, 77, 29);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px;
+    text-decoration:underline;
+}
+.profile img{
+    height: 100px;
+    border-radius: 50% !important;
+}
+.heading {
+    font-size: 15px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  .profile{
+    margin: auto;
+    border: 1px solid #2121216e;
+    padding: 2rem !important;
+    margin-bottom: 2rem;
+    border-radius: 50px ;
+  }
